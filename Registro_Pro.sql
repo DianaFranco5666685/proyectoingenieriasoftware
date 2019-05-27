@@ -1,0 +1,47 @@
+set search_path to miscelanea;
+insert into producto (
+    codigo,		
+	nombre ,         
+	descripcion,	    
+	precio_c,	    
+	precio_v,	    
+	empaquetado,    
+	marca,           
+	tipo,            
+	id_p,            
+    existencia 			
+)
+values(
+(10510,'Leche Nutrileche','Leche entera de 1L',9, 10.50, '12','Nutri Leche', 'perecedero ,05/12/2019',010301,0),
+(10511,'Leche Alpura 2000 Semi Roja', 'Leche entera de 1L',18, 19.50,'12','Alpura','perecedero, 25/10/2019',010302,0),    
+(10512,'Leche Alpura Fresa','Cajitas de leche de 250 ml sabor fresa',5.50,7.50,'24','Alpura','perecedero 25/01/2020',010302,0),    
+(10513,'Leche Lala Light','Leche entera de caja 1L',20,23,'12','Lala','perecedero 25/10/2019',010301,0),    
+(10514,'Leche Hersheys Drink Fresa','Cajitas de leche de 236 ml sabor fresa',7,8.50,'27','Hersheys','perecedero 15/10/2019',010317,0),
+(10515,'Leche evaporada baja en grasa','Lata de leche evaporada de 360 ml',13.20,15,'24','Carnation','perecedero 20/02/2020',010316,0),
+(10516,'Pan blanco', 'Paquete de Pan Blanco Bimbo 680 grs', 33,35,'12','Bimbo','Perecedero 25/08/2021',010303,0),
+(10517,'Nito Bimbo', 'Paquete de Nito Bimbo de 15 pz', 7.50,8.50,'15','Bimbo','Perecedero 20/07/2020',010303,0),    
+(10518,'Caja Gelatina D-Gari Light Fresa Leche','Sobres de gelatina de 20g sabor fresa_leche',7.85,9,'24','perecedero 25/08/2020',010316,0),
+(10519,'Tortillas de harina Tia Rosa', 'Paquete de Tortillinas Tia Rosa 5pz de 260 grs',18.30,20,'10','perecedero 20/01/2020',010303,0 ),
+(10520,'Chips con sal Barcel', 'Paquete de Chips de 800 gr',10.01,12,'12','perecedero 25/08/2023',010315,0),
+(10521,'Aceite de Cártamo Oléico','Bote de Aceite de cartamo de 946ml',51,54,'24','perecedero 24/03/2020', 010307,0) ,    
+(10522,'Aceite Patrona', 'Bote de Aceite de 1L',52.25,55,'24','perecedero 02/08/2020', 010320,0 ),    
+(10523,'Cajeta Coronado Surtida', 'Caja de Cajeta Coronado Surtida de 660grs', 32.50,34,'24','perecedero 25/03/2021',010315,0),
+(10523,'Chile Rajas','Caja de Chile Rajas de 105 grs',4.90,5.50,'25','perecedero 30/08/2024',010307,0),    
+(10525,'Caja aceite Nutrioli','Bote de aceite natural de 400ml',13.20,16,'24','perecedero 30/03/2020',010307,0),  
+(10526,'Caja Detergente Ariel','Bolsa de Detergente de  500gr',18.20,19,'18','no perecedero',010321,0),
+(10527,'Blanqueador Clarasol','Caja de Blanqueador de 1L',15.90,18,'12','no perecedero', 010323,0),    
+(10528,'Caja Detergente Multiusos Maestro Limpio Regular','Bolsa de Detergente de 1KG',24.30,26,'12','no perecedero',010321,0),
+(10529,'suavizante suavitel primaveral', 'Caja de Suavisante Suavitel de 450 ml', 10.01,11.50,'12','no perecedero',010323,0),
+(10530,'Caja Lavatrastes Salvo Polvo','Bolsa de Detergente Lavatraste de 900grs',23.90,26,'10','no perecedero',010321,0),    
+(10531,'Escobas Mara Jose 8 Hilos','Escoba de 8 hilos',12.50,15,'unidad','no perecedero',010322,0),
+(10532,'Trapeadores Members Mark','Trapeador Members Mark de metal',18.70,20,'unidad','no perecedero',010322,0),
+(10533,'Garrafon de Agua','Garrafon de Agua de 20L',13.50,15,'unidad','no perecedero',010322,0),
+(10534,'Bulto de azúcar estándar','Bulto de Azucar de  25 Kg',19.90,22,'pesaje','no perecedero',010322,0),
+(10535,'Bulto de alimento en croquetas para perro','Bulto de alimento para perro de  25 Kg',20.01,24,'pesaje','no perecedero',010323,0), 
+(10536,'Bulto de chiles_secos','Bulto de Chiles_secos de 50 Kg',13.50,16,'pesaje','no perecedero',010323,0),    
+(10537,'Brasso Lavanda', 'Caja de Brasso Lavanda de 900 ml',10.50,12.20,'12','no perecedero',010321,0),
+(10538,'Bulto papel higiénico Lovly','Caja de papel higienico Lovly de 4 rollos',23.20,24.50,'12','no perecedero',010321,0),
+(10539,'Camay floral sensation','Caja de Jabones Camay Floral de 150 grs',9.80,10.50,'12','no perecedero',010321,0),
+(10540,'Servilleta Lys','Caja de servilletas Lys de 125 servilletas',8.20,9.50,'48','no perecedero',010323,0)    
+
+);
